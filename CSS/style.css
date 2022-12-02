@@ -1,0 +1,195 @@
+@font-face {
+    font-family: "SansCulottes";
+    src: url("../FONTS/SansCulottes.ttf")
+}
+
+@font-face {
+    font-family: "FIBRE";
+    src: url("../FONTS/fibre-font.ttf")
+}
+
+@font-face {
+    font-family: "Arla";
+    src: url("../FONTS/arla.ttf")
+}
+
+
+body{
+    background-image: url(../IMAGE/bg-01.png);
+    background-size: contain;
+}
+
+#navbar-primary .navbar-nav { 
+      width: 100%;
+      text-align: center;
+}
+
+#navbar-primary .navbar-nav li{
+    display: inline-block;
+    float: none;
+    font-family: "FIBRE";
+}
+
+    
+#navbar-primary .navbar-nav li a{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "FIBRE";
+    FONT-SIZE: 19PX;
+    COLOR: #323232;
+}
+
+.navbar-nav {
+    display: flex!important;
+    flex-direction: row!important;
+    padding-left: 0!important;
+    margin-bottom: 0!important;
+    list-style: none!important;
+    flex-wrap: nowrap!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+header{
+    background-image: url(../IMAGE/out-line.png);
+    height: 20%;
+    position: fixed;
+    width: 100%;
+    opacity: 0.95;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+#navbar-primary .navbar-nav li a:hover, #navbar-primary .navbar-nav li a:focus {
+    text-decoration: none;
+    COLOR: #c35b00;
+    scale: 1.03;
+    background-color: none!important;
+}
+
+.section01{
+    position: relative;
+    top: 0%;
+    z-index: -1;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;    
+    background-color: #ffffff00!important;
+}
+
+.section01 .heading h1{
+    font-family: "FIBRE";
+    padding: 5% 20% 5% 20%;
+    text-align: center;
+    color: #007B49;
+}
+
+.container{
+    height: 0%;
+}
+
+
+.section01 .heading{
+    top: -22px;
+    position: relative;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.section02 .row .col-lg-7 h1{
+    font-family: "FIBRE";
+    margin-top: 15%;
+    padding-right: 7%;
+    padding-left: 7%;
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(33 37 41 / 73%);
+}
+
+.section02 .row .col-lg-7 p{
+    font-family: system-ui;
+    -webkit-text-stroke: 0.5px;
+    color: #000000b8;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 28%;
+    font-size: 1.5rem;
+    padding-top: 2%;
+}
+
+.section03 .row .col-lg-3 img{
+    width: 100%;
+}
+
+.section03 .card-deck {
+    margin-bottom: 3%;
+    padding: 3% 10% 11% 10%;
+}
+
+.section03 .card-deck .card{
+    box-shadow: 1px 1px 10px 3px #d9c5c56e;
+}
+
+.section03 .card-deck .card .card-title{
+    font-family: "FIBRE";
+    text-align: center;
+    font-size: 3.25rem;
+}
+
+.section03 .container h1{
+    text-align: center;
+
+    font-family: "FIBRE";
+    font-size: 8rem;
+}
+
+.section03{
+    padding-top: 9%;
+}
+
+.section03 .card-deck .card .card-text{
+    font-family: system-ui;
+    font-size: 1.4rem;
+}
+
+.section04{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.section04 .row .col-lg-4 img{
+    width: 100%;
+}
+
+.section04 .row .col-lg-4{
+    padding: 0;
+    HEIGHT: 432PX;
+    WIDTH: 620px;
+    margin: 0;
+    opacity: 1;
+    text-align: center;
+    background-blend-mode: luminosity;
+    transition: 0.3s;
+}
+
+.section04 .row .col-lg-4 a{
+    text-align: center;
+    font-family: "FIBRE";
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    font-size: 2rem;
+    padding: 1% 3% 1% 3%;
+    background: #ffffff;
+    position: relative;
+    top: 87%;
+    left: 0;
+    border: 0.2px solid #8080801a;
+
+}
+
+.section04 .row .col-lg-4:hover{
+    background-blend-mode: difference;
+
+}
